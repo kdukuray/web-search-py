@@ -1,0 +1,16 @@
+# Ignore specific files
+main.py
+scrap.py
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore all files with specfic extension
+*.txt
+*.pyc
+*.xml
+*.iml
+
+# If you specific directory:
+.idea/
+
