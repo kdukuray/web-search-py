@@ -14,7 +14,7 @@ WebSearch Py is python library for scrapping search engine results from multiple
 First import the WebSearch object from the websearch module and initialize it. The constructor of the WebSearch object takes an optional SearchEngine enum as an argument. This enums specifies the search engine to be used. If not SearchEngine enum is passed, the WebSearch object will default to google search.
 
 ```python
-import websearch
+from websearch import *
 
 wsp = WebSearch(SearchEngine.GOOGLE)
 
