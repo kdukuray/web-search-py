@@ -62,7 +62,7 @@ Perhaps the most import peice of information assocaited with each search result 
 
 ```python
 
-wsp. WebSearch()
+wsp.WebSearch()
 all_results  = wsp.search("Dekompiler")
 print(all_results[0].get_url())
 
@@ -83,7 +83,7 @@ This allows you to extract the page's rank from the Result object.
 
 ```python
 
-wsp. WebSearch()
+wsp.WebSearch()
 all_results  = wsp.search("Dekompiler")
 print(all_results[0].get_rank())
 
